@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+pandas = "*"
+"path.py" = "*"
+google-cloud-bigquery = "*"
+google-auth = "*"
+pyarrow = "*"
+dash-core-components = "*"
+dash = "*"
+dash-html-components = "*"
+plotly = "*"
+datetime = "*"
+numpy = "*"
+dash-bootstrap-components = "*"
+scikit-learn = "*"
+xgboost = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
